@@ -1,0 +1,76 @@
+@media screen and (min-width: 700px) {
+.flex1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  font-size:20px;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  text-align: center;
+}
+.contactus {
+  text-align: center;
+  font-size: 45px;
+  padding-top:3%;
+  padding-bottom: 3%;
+}
+.fab {
+  font-size: 150%;
+  margin-left: 5%;
+  color: black;
+}
+.address {
+  color: black;
+}
+.email {
+  color: black;
+}
+.phone {
+  color: black;
+}
+}
+
+@media screen and (max-width: 699px) {
+.flex1 {
+  display: block;
+}
+.box {
+  font-size:13px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+#gmap_canvas {
+  width: 90%;
+  height: 250px;
+  margin-bottom: 5%;
+}
+.contactus {
+  text-align: center;
+  font-size: 20px;
+  padding-top:5%;
+  padding-bottom: 5%;
+}
+.fab {
+  font-size: 150%;
+  margin-left: 5%;
+  color: black;
+}
+.address {
+  color: black;
+}
+.email {
+  color: black;
+}
+.phone {
+  color: black;
+}
+
+
+
+
+
+}
