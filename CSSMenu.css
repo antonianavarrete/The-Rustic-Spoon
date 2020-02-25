@@ -1,0 +1,82 @@
+@media screen and (min-width: 700px) {
+.menu {
+  text-align: center;
+  font-size: 45px;
+  padding-top:3%;
+  padding-bottom: 3%;
+}
+/*.menupdf {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%; this is the pdf version for menu*/
+.flex { /*flexbox examples: https://www.qhmit.com/css/flexbox/examples/flexbox_grid_examples.cfm*/
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  margin: 3%;
+  background-color: #d4a257;
+}
+.box {
+width: 100%;
+font-size:;
+padding-left:;
+padding-right:;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.gallery {
+align-items: center;
+display: flex;
+justify-content: center;
+margin-left: 2%;
+margin-right: 2%;
+}
+.pic {
+width: 75%;
+font-size:;
+padding: 1.5%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+@media screen and (max-width: 699px) {
+.menu {
+  text-align: center;
+  font-size: 20px;
+  padding-top:5%;
+  padding-bottom: 5%;
+}
+.flex {
+  display: block;
+  padding: 2%;
+  margin: 3%;
+  background-color: #d4a257;
+}
+.box {
+  width: 100%;
+  padding-left:;
+  padding-right:;
+  text-align: center;
+}
+.gallery {
+align-items: center;
+display: flex;
+justify-content: center;
+padding:;
+margin-left: 1%;
+margin-right: 1%;
+}
+.pic {
+width: 100%;
+font-size:;
+padding: 4%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+}
