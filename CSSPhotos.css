@@ -1,0 +1,50 @@
+.rowmobile {
+  display: none;
+}
+.photos {
+  text-align: center;
+  font-size: 45px;
+  padding-top:3%;
+  padding-bottom: 3%;
+}
+div.row {
+  margin: 0px;
+  padding: 0px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+
+}
+.col {
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+padding: 0px;
+}
+.two {
+  margin-top: 50px;
+}
+img {
+  width: 90%;
+}
+@media screen and (max-width: 699px) {
+.row {
+  display: none;
+}
+.photos {
+  font-size: 20px;
+  margin-top:5%;
+  margin-bottom: -5%;
+}
+div.colmobile {
+  margin-top: 30px;
+  text-align: center;
+}
+.rowmobile{
+  display: flex;
+}
+.two {
+  margin-top: 15px;
+}
+}
